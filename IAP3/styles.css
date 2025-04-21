@@ -1,0 +1,11 @@
+#blog-list .blog-preview {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  #blog-form input, #blog-form textarea {
+    width: 100%;
+  }
+  

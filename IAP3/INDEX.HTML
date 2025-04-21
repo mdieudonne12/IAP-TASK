@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic" />
+      <h1>Your Full Name</h1>
+      <p class="tagline">A short professional or personal tagline</p>
+      <a href="#projects" class="btn">See My Projects</a>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <!-- Repeat this block for each project -->
+        <div class="project-card">
+          <img src="images/project1.jpg" alt="Project Screenshot" />
+          <h3>Project Title</h3>
+          <p>Description of the project.</p>
+          <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+          <a href="#">GitHub</a> | <a href="#">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Education Section ===== -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <h3>University Name</h3>
+          <p>Degree or Program (Year - Year)</p>
+          <p>Optional Certifications</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Blog Section (Preview) ===== -->
+  <section id="blog" class="blog">
+    <div class="container">
+      <h2>Latest Blog Posts</h2>
+      <div id="blog-posts">
+        <a href="dashboard.html">Blog</a>
+        <!-- Blog previews inserted via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+        <p id="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+      <div class="socials">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <!-- Add more icons as needed -->
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

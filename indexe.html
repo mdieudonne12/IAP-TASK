@@ -6,23 +6,90 @@
     <title>Personal Portifolio</title>
     <link rel="stylesheet" href="styles.css">
     <link  href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <style>
+    body {
+        font-family: sans-serif;
+        background:black;
+        padding: 30px;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background: #fff;
+        padding: 200px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      }
+      input {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+      }
+      textarea {
+        width: 100%;
+        height: 100px;
+        padding: 12px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+      
+      }
+  
+      button {
+        padding: 10px 16px;
+        background-color: #007bff;
+        border: none;
+        color: #fff;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      .blog-preview {
+        padding: 15px;
+        border: 1px solid  black;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        background-color:whitesmoke;
+        font-size: 1rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight:5%;
+      }
+      b{
+        font-size: 1rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight:2px;
+      
+      }
+      .blog-preview button {
+        margin-right: 10px;
+      }
+      .blog-preview p{
+        color: black;
+      }
+      h2{
+        color: black;
+        font-size: 1rem;
+        
+      }
+    </style>
 </head>
 <body>
     <body>
         <header class="header">
 <a href="#home" class="logo">Dieu<span>DEV</span></a>
-<i class="bx bx-menu" id="menu-icon"></i>
+<a href=""><i class="bx bx-menu" id="menu-icon"></i></a>
 <nav class="navbar">
     <a href="indexe.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="service.html">Services</a>
-    <a href="skills.html">Skills</a>
     <a href="project.html">Projects</a>
+    <a href="education.html">Education</a>  
+<a href="blog.html">Blog</a>
+    <a href="dashboard.html">Blog Dashboard</a>
+    
     <a href="contact.html">Contact</a>
-    <a href="Blog.html">Blog</a>
+    
 
 </nav>
-<button class="gradient-btn">Contact Me</button>
         </header>
         <section class="home" id="home">
             <div class="home-content">
@@ -62,10 +129,157 @@ and  it is easy to become a web developer.if you want more information please <a
 
         </section>
 
-       
+        <section class="Projects" id="Projects">
+            <h2 class="heading">Projects</h2>
+            <div class="projects-box">
+                <div class="project-card">
+                    <img src="project1.png" alt="">
+                    <h3> Personal Portfolio Website</h3>
+                    <p>Description: A fully responsive website to showcase my skills, projects, and background as a developer. It includes smooth navigation, clean UI/UX, and a contact form.
+                        Technologies used to develop : HTML, CSS, JavaScript, React, EmailJS </p>
+                <button class="btn"><a href="https://www.google.com/imgres?q=personal%20potifolio%20live%20demo%20link&imgurl=https%3A%2F%2Fthemewagon.com%2Fwp-content%2Fuploads%2F2020%2F05%2Fjony-1.jpg&imgrefurl=https%3A%2F%2Fthemewagon.com%2Fblog%2F41-free-high-quality-responsive-personal-portfolio-website-html5-bootstrap-templates-2018%2F&docid=MSMbSkExuqHQ-M&tbnid=EIkDDJJYWTjZ5M&vet=12ahUKEwio3f_iss-MAxWaXKQEHa2lPNYQM3oFCIABEAA..i&w=750&h=460&hcb=2&ved=2ahUKEwio3f_iss-MAxWaXKQEHa2lPNYQM3oFCIABEAA" id="demo" ><b>live demo </b></a></button>        
+               
+               
+    
+            </div>
+            <div class="project-card">
+                <img src="project2.png" alt="">
+                <h3> CHATTING PLATFORM</h3>
+                <p>In our dailylife we need different platform to communicate with our famillies ,friends and our relative that's why i got the ideas of developing the website that will help them to communicate in easy way.There are so many Technologies used to develop the chatting platforms but there are the some of the i'm going to list:Node.js, Express, HTML, CSS </p>
+           <button class="btn"><a href="https://www.google.com/imgres?q=chatting%20platform%20live%20demo&imgurl=https%3A%2F%2Fleadoo.com%2Fwp-content%2Fuploads%2F2020%2F08%2FLiveChat-3-1024x640.png&imgrefurl=https%3A%2F%2Fleadoo.com%2Flive-chat-demo%2F&docid=XKGQQkqgzSZKZM&tbnid=U4JnrNGIYMmEbM&vet=12ahUKEwiU6OW3tc-MAxV4TqQEHblGC64QM3oFCIABEAA..i&w=1024&h=640&hcb=2&ved=2ahUKEwiU6OW3tc-MAxV4TqQEHblGC64QM3oFCIABEAA">live demo</a></button>
+                
+            </div>
+            <div class="project-card">
+                <img src="project3.jpg" alt="">
+                <h3>URUBOGA FARMING WEBSITE</h3>
+                <p>Nowdays some people they don't how you can caltivate with the electronic agriculture materials,there are so many plants we cultivate which are the following:cabbages,carrots,onion  <B>The technologies used:REACT.JS,LARAVEL,SPRING ,JavaScript</B> </p>
+           <button class="btn"><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fwi.co.uk%2Fevents%2Ftillage-live%2Ftillage-live-and-normac-demo-days-set-to-return-this-month&psig=AOvVaw29hD1aPsxs6F-9umaziJRN&ust=1744441805522000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIj69Jq2z4wDFQAAAAAdAAAAABAE">live demo</a> </button>
+                
+            </div>
+            <div class="project-card">
+                <img src="project4.png" alt="">
+                <h3>BAPTHISM REGISTRATION PLATFORM</h3>
+                <p>The first project i'm planning to do is the project  tha will allow the adverntist church to manage the bapthtism.This project us coming to solve the problem of being bapthtised to many time because of being to much sinner, <b>techlogies used:HTML,CSS JAVA.PHP,SQL</b> </p>
+          <button class="btn"><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.com%2Fstock-photo%2Fbaptism-by-immersion.html&psig=AOvVaw1rY3gglplJmpyZBf95pkj8&ust=1744442007704000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJCD3Pm2z4wDFQAAAAAdAAAAABAE">live demo</a></button>
+                
+            </div>
+            
+        </section>
         
-       
-       
+        <section class="services" id="services">
+            <h2 class="heading">Services</h2> 
+            <div class="services-container">
+                <div class="service-box">
+                    <div class="service-info">
+                        <i class="bx bxl-figma"></i>
+                        <h4>UI/UX Design</h4>
+                        <p>The design of my personal portfolio website is clean, easy to use, and focused on showing my work clearly. I used simple layouts and smooth navigation so visitors can move through the site without confusion. The website works well on all screen sizes, from phones to desktops. I chose easy-to-read fonts, soft colors, and enough space between sections to make everything look neat and professional. Every part of the design is made to help people understand who I am, what I do, and how to get in touch with me</p>
+                    </div>
+                </div>
+    
+                
+                    <div class="service-box">
+                        <div class="service-info">
+                            <i class="bx bxl-code"></i>
+                            <h4>Frontend Development</h4>
+                            <p>Frontend development is all about building the parts of a website that people see and interact with. It includes everything from layout and design to making buttons, menus, and animations work smoothly. As a frontend developer, I use HTML, CSS, and JavaScript to create clean, responsive, and user-friendly websites. My goal is to turn ideas and designs into real, working web pages that look good on any device and provide a great experience for users.</p>
+                        </div>
+                    </div>
+    
+    
+                    
+                        <div class="service-box">
+                            <div class="service-info">
+                                <i class="bx bxl-code-curly"></i>
+                                <h4>Backend Development</h4>
+                                <p>Backend development focuses on the behind-the-scenes parts of a website or application that users don’t see but are essential for everything to work properly. It involves working with servers, databases, and APIs to manage data, handle requests, and make sure everything runs smoothly and securely. As a backend developer, I build the logic and structure that power the frontend, using tools like Node.js, Express, and databases such as MongoDB or MySQL. My goal is to create fast, reliable, and scalable systems that support great user experiences.</p>
+                            </div>
+                        </div>
+            </div>
+    
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="heading">Skills</h2> 
+            <div class="services-container">
+                <div class="service-box">
+                    <div class="service-info">
+    <h4>Frontend Development Skills</h4>
+    <p>As a web developer, I have strong skills in frontend development, creating user-friendly and visually appealing interfaces. I work with HTML, CSS, and JavaScript to bring designs to life in the browser. I also use frameworks like React to build dynamic and responsive web applications that look great on all screen sizes. With a good understanding of UI/UX principles, I make sure every project I work on is clean, accessible, and easy to navigate.
+    
+    </p>
+                        
+                        </div>
+                        </div>
+                    
+    
+                        <div class="service-box">
+                        <div class="service-info">
+                            <i class="bx bxl-code"></i>
+                            <h4>Backend Development Skills</h4>
+                            <p>On the backend, I build the logic and structure that power web applications behind the scenes. I use technologies like Node.js, Express, and databases such as MongoDB and MySQL to handle data storage, APIs, and server-side operations. My focus is on writing clean, secure, and scalable code that connects smoothly with the frontend. This allows me to build full-stack applications that are fast, reliable, and ready for real-world use.
+    
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                        </section>
+
+                        <section  class="contact" id="contact">
+                            <h2 class="heading">Contact <span>Me</span></h2>
+                            <h4>Which the problem you faced with while using my website</h4>
+                            <p> Call me on: 0798585532 <br> Email:maniraguhadieudonne <br>Follow on instagram :mdieudonne85</p>
+                            <form action="#" id="contact-form">
+                    
+                                <div class="input-group">
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Full Name" id="full-name">
+                                        <input type="email" placeholder="email" id="email">
+                    
+                                    </div>
+                    
+                                    <div class="input-box">
+                                        <input type="number" placeholder="Phone Number" id="phone">
+                                        <input type="text" placeholder="Subject" id="subject">
+                    
+                                    </div>
+                                </div>
+                    
+                                <div class="input-group-2">
+                                    <textarea name="message" id="message" placeholder="Enter Your Message Here" cols="30" rows="10"></textarea>
+                                    <input type="submit" value="Send Message" class="btn" name="submit"> <br> <br>
+                                    
+                                </div>
+                    
+                            </form>
+                    
+                        </section>
+
+                        <section class=" container">
+
+                        
+                                <h1> Blog Dashboard Management</h1>
+                            
+                                <form id="blog-form">
+                                  <input type="hidden" id="post-id" />
+                                  <input type="text" id="title" placeholder="Blog Title" required />
+                                  <input type="date" id="date" required >
+                                  <textarea id="content" rows="6" placeholder="Blog Content" required></textarea>
+                                  <button type="submit">Save Post</button><br><br>
+                                </form>
+                            
+                                <hr />
+                        
+                            <h2 class="heading"> Blog Posts</h2>
+                            <div id="blog-list">
+                                
+                            </div>
+                          </div>
+                        
+                          <script src="dashboard.js"></script>
+
+                        </section>
+
         <footer class="footer">
 
 
@@ -90,7 +304,7 @@ and  it is easy to become a web developer.if you want more information please <a
                 <li>
                     <a href="#">FAQ</a>
                 </li>
-                <li><a href="#services">Services</a>
+                <li><a href="#services">Education</a>
                 </li>
                 <li>
                     <a href="#about">About Me</a>
@@ -105,7 +319,11 @@ and  it is easy to become a web developer.if you want more information please <a
              <p class="copyright">
                 &copy;DieuDEV | All Right Reserved
              </p>
-        </footer>
+
+
+
+
+                    </footer>
         <script src="script.js"></script>
     </body>
 </body>

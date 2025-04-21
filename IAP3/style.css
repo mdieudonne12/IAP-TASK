@@ -1,0 +1,223 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    scroll-behavior: smooth;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* ===== Hero Section ===== */
+  .hero {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .hero .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero .tagline {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+  }
+  
+  /* ===== Projects Section ===== */
+  .projects {
+    background-color: #ffffff;
+    padding: 60px 20px;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ===== Education Section ===== */
+  .education {
+    padding: 60px 20px;
+    background-color: #f1f3f5;
+  }
+  
+  .education h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .education ul {
+    list-style: none;
+  }
+  
+  .education li {
+    margin-bottom: 20px;
+  }
+  
+  /* ===== Blog Section ===== */
+  .blog {
+    padding: 60px 20px;
+    background-color: #ffffff;
+  }
+  
+  .blog h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #blog-posts {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .blog-preview {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  /* ===== Contact Section ===== */
+  .contact {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form input,
+  form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  #form-status {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* ===== Footer ===== */
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer .socials a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  footer .socials a:hover {
+    color: #00b4d8;
+  }
+  
+  /* ===== Responsive Design ===== */
+  @media (max-width: 768px) {
+    .project-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero .tagline {
+      font-size: 1rem;
+    }
+  
+    .project-card {
+      width: 100%;
+    }
+  }
+  

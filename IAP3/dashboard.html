@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <section class="container">
+    <h1>Blog Dashboard</h1>
+
+    <!-- Blog Form -->
+    <form id="blog-form">
+      <input type="hidden" id="post-id" />
+      <input type="text" id="title" placeholder="Blog Title" required />
+      <input type="date" id="date" required />
+      <textarea id="content" placeholder="Blog Content" rows="5" required></textarea>
+      <button type="submit">Save Post</button>
+    </form>
+
+    <hr />
+
+    <!-- Blog List -->
+    <h2>All Blog Posts</h2>
+    <div id="blog-list"></div>
+  </section>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
